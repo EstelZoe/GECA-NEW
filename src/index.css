@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors */
+  --color-navy-blue: #10107B;
+  --color-primary: #7848F4;
+  /* Typography */
+  --text-big-heading: 36px;
+  --text-heading: 24px;
+  --text-sub-heading: 18px;
+  --text-body-text: 16px;
+  --text-paragraph: 12px;
+  --text-label: 10px;
+}
