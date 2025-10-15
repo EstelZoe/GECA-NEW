@@ -3,9 +3,9 @@ import { Search, Users, Globe, Phone } from "lucide-react";
 export default function TopNavbar() {
     return (
         <div className="hidden md:flex fixed top-0 left-0 z-50 w-full h-12 bg-gray-100 shadow-sm items-center px-4">
-        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-end gap-6 py-2 px-4 w-full">
+        <div className="max-w-7xl mx-auto flex flex-wrap items-center justify-end gap-6 py-2 px-4 w-full translate-x-[-30px]">
                 {/* Item */}
-                <a
+                {/* <a
                     href="#search"
                     className="flex items-center gap-2 text-gray-700 hover:text-orange-500"
                 >
@@ -13,7 +13,7 @@ export default function TopNavbar() {
                         <Search size={18} />
                     </span>
                     <span className="text-lg">Search</span>
-                </a>
+                </a> */}
 
                 {/* Item */}
                 <a
