@@ -10,7 +10,7 @@ import gsa from "../assets/images/GSA.jpg";
 // import men from "../assets/images/menergy.jpeg";
 import ned from "../assets/images/NEDCO.jpg";
 import wnh from "../assets/images/WorksnHousing.png";
-import wusc from "../assets/images/WUSC.JPG";
+import wusc from "../assets/images/WUSC.jpg";
 import ctvet from "../assets/images/CTVET.jpg";
 
 export default function VariouSwiper() {
