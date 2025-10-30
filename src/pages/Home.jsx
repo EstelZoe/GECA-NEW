@@ -18,6 +18,8 @@ import solar from "../assets/images/Solar.jpg";
 import conference from "../assets/images/conference.jpg";
 import eg from "../assets/images/MWECG.jpg";
 import VariouSwiper from "../components/VariouSwiper";
+import qr from "../assets/images/QR.PNG";
+import bg from "../assets/images/copy2.png";
 
 
 const slides = [hero1, hero2, hero3];
@@ -148,7 +150,7 @@ export default function Home() {
 
             {/* ABOUT SECTION */}
 
-            <section className="bg-red-700 text-white py-16 px-6 md:px-14">
+            <section id="about" className="bg-red-700 text-white py-16 px-6 md:px-14">
                 <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                     <FadeInWhenVisible direction="left">
                         <div className="text-center lg:text-left flex flex-col justify-center">
@@ -221,7 +223,7 @@ export default function Home() {
 
             {/* MEMBERSHIP SECTION */}
             <FadeInWhenVisible direction="down">
-                <section className="py-16 bg-white text-center mt-10 px-6 md:px-14">
+                <section id="membership" className="py-16 bg-white text-center mt-10 px-6 md:px-14">
                     <div className="max-w-[1200px] mx-auto">
                         <div className="mb-10">
                             <h6 id="Membership" className="text-2xl sm:text-3xl font-medium text-black">
@@ -258,7 +260,7 @@ export default function Home() {
 
                         <div className="mt-12">
                             <a
-                                href="./readMore.html"
+                                href="./membership"
                                 className="inline-block bg-red-700 text-white px-14 py-5 rounded-full font-semibold hover:bg-red-600 transition"
                             >
                                 Read More
@@ -268,8 +270,55 @@ export default function Home() {
                 </section>
             </FadeInWhenVisible>
 
+           
+            {/* BUSINESS DIRECTORY */}
+            <section id="directory" className="mt-4 py-12 px-6 md:px-16 bg-cover bg-center bg-no-repeat text-white"
+                style={{ backgroundImage: `url(${bg})` }}  >
+               
+                <div className="relative z-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+                    {/* Text Section */}
+                    <FadeInWhenVisible direction="left">
+                        <div className="text-white text-center lg:text-left flex flex-col items-center lg:items-start lg:ml-24">
+                            <h1 className="text-3xl md:text-4xl font-bold leading-tight mb-4">
+                                Are you looking for a reliable <br /> Electrical Service Provider?
+                            </h1>
+
+                            <p className="text-lg text-white mb-6 leading-relaxed">
+                                Look no further. Download the Ghana Electrical <br />
+                                Industry Business Directory for a trusted and <br />
+                                reliable Electrical Contractors and Dealers of <br />
+                                electrical materials.
+                            </p>
+
+                            {/* QR Code */}
+                            <div className="flex justify-start mb-4">
+                                <img
+                                    src={qr}
+                                    alt="GECA QR Code"
+                                    className="w-32 h-32 object-contain"
+                                />
+                            </div>
+
+                            {/* Button Link */}
+                            <a
+                                href="https://drive.google.com/file/d/1PyiHhHf1bc88cer9tEPR1eGE_s1iTajs/view?usp=drivesdk"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-block bg-red-700 text-white px-6 py-3 rounded-md font-semibold hover:bg-red-800 transition"
+                            >
+                                Click here
+                            </a>
+                        </div>
+                    </FadeInWhenVisible>
+
+                    {/* Right Side Image Placeholder (optional for later) */}
+                    <div className="hidden lg:block"></div>
+                </div>
+            </section>
+
+
             {/* PRESIDENT FOREWORD*/}
-            <section className="bg-white py-10 sm:py-16 md:py-24 px-4 sm:px-6 md:px-14">
+            <section id="foreword" className="bg-white py-10 sm:py-16 md:py-24 px-4 sm:px-6 md:px-14">
                 <div className="max-w-[1180px] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-10 items-center">
                     {/* Image Side */}
                     <FadeInWhenVisible direction="left">
@@ -301,7 +350,7 @@ export default function Home() {
 
 
             {/* LATEST EVENTS */}
-            <section className="bg-gray-200 py-10 sm:py-14 md:py-20 px-3 sm:px-6 md:px-14">
+            <section id="events" className="bg-gray-200 py-10 sm:py-14 md:py-20 px-3 sm:px-6 md:px-14">
                 <div className="max-w-[950px] mx-auto">
                     <div className="text-center mb-10">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900">
@@ -356,8 +405,8 @@ export default function Home() {
             <VariouSwiper />
             {/* TESTIMONIALS */}
             <Testimonial />
-             <Footer />
-           
+            <Footer />
+
 
         </>
     );

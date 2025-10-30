@@ -17,8 +17,10 @@ export default function TopNavbar() {
 
                 {/* Item */}
                 <a
-                    href="#member"
-                    className="flex items-center gap-2 text-gray-700 hover:text-orange-500"
+                    href="https://drive.google.com/file/d/1PyiHhHf1bc88cer9tEPR1eGE_s1iTajs/view?usp=drivesdk"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-gray-700 hover:text-red-700"
                 >
                     <span className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-700 text-white">
                         <Users size={18} />
@@ -29,7 +31,7 @@ export default function TopNavbar() {
                 {/* Item */}
                 <a
                     href="#regions"
-                    className="flex items-center gap-2 text-gray-700 hover:text-orange-500"
+                    className="flex items-center gap-2 text-gray-700 hover:text-red-700"
                 >
                     <span className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-700 text-white">
                         <Globe size={18} />
@@ -40,7 +42,7 @@ export default function TopNavbar() {
                 {/* Item */}
                 <a
                     href="#contact"
-                    className="flex items-center gap-2 text-gray-700 hover:text-orange-500"
+                    className="flex items-center gap-2 text-gray-700 hover:text-red-700"
                 >
                     <span className="flex items-center justify-center w-8 h-8 rounded-full bg-gray-700 text-white">
                         <Phone size={18} />

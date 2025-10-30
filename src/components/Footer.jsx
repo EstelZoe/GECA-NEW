@@ -1,5 +1,5 @@
 import React from "react";
-import { Facebook, Twitter, Instagram, Linkedin, Youtube, Phone, Mail, MapPin,} from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Youtube, Phone, Mail, MapPin, } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -30,10 +30,18 @@ export default function Footer() {
                     <div>
                         <h1 className="text-xl font-semibold mb-3">About Us</h1>
                         <ul className="space-y-2 text-sm">
-                            <li><a href="#membership" className="hover:text-gray-200">Membership</a></li>
-                            <li><a href="#directory" className="hover:text-gray-200">Business Directory</a></li>
-                            <li><a href="#foreword" className="hover:text-gray-200">Foreword</a></li>
-                            <li><a href="#events" className="hover:text-gray-200">Events</a></li>
+                           <li> <a href="#membership" className="hover:text-gray-200">
+                                Membership
+                            </a></li>
+                           <li> <a href="#directory" className="hover:text-gray-200">
+                                Business Directory
+                            </a></li>
+                           <li> <a href="#foreword" className="hover:text-gray-200">
+                                Foreword
+                            </a></li>
+                           <li> <a href="#events" className="hover:text-gray-200">
+                                Events
+                            </a></li>
                             <li><a href="#contact" className="hover:text-gray-200">Contact</a></li>
                         </ul>
                     </div>

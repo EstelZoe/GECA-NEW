@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import logo from "../assets/images/gecawhite.png";
 import { motion, AnimatePresence } from "framer-motion";
+import { Link } from "react-router";
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -38,14 +39,13 @@ export default function Navbar() {
                         <a href="#events" className="hover:text-gray-200 text-lg">
                             Events
                         </a>
-                        <a href="#contact" className="hover:text-gray-200 text-lg">
-                            Contact Us
-                        </a>
+                       <Link to="/contact" className="hover:text-gray-200 text-lg">Contact Us</Link>
+                        
                         <a
-                            href="#join"
+                         href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+                            target="_blank" rel="noopener noreferrer"
                             className="bg-red-900 px-4 py-2 rounded-full font-semibold hover:bg-red-800 transition text-lg"
-                        >
-                            Join GECA
+                        >Join GECA
                         </a>
                     </div>
 
