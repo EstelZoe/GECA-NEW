@@ -101,7 +101,8 @@ export default function Home() {
                                     </p>
 
                                     <a
-                                        href="#join"
+                                        href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+                                        target="_blank" rel="noopener noreferrer"
                                         className="inline-block mt-5 bg-red-700 text-white px-10 sm:px-14 py-3 sm:py-4 rounded-full font-semibold hover:bg-red-600 transition text-sm sm:text-base"
                                     >
                                         Join GECA
@@ -270,11 +271,11 @@ export default function Home() {
                 </section>
             </FadeInWhenVisible>
 
-           
+
             {/* BUSINESS DIRECTORY */}
             <section id="directory" className="mt-4 py-12 px-6 md:px-16 bg-cover bg-center bg-no-repeat text-white"
                 style={{ backgroundImage: `url(${bg})` }}  >
-               
+
                 <div className="relative z-10 max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
                     {/* Text Section */}
                     <FadeInWhenVisible direction="left">
