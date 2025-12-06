@@ -4,12 +4,14 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Membership from "./pages/Membership";
 import Contact from "./pages/Contact";
+import GalleryPage from "./pages/GalleryPage";
 
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/about", element: <About /> },
   { path: "/membership", element: <Membership /> },
   { path: "/contact", element: <Contact /> },
+   { path: "/gallerypage", element: <GalleryPage /> },
 ]);
 
 const App = () => {

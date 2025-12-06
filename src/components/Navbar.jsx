@@ -36,8 +36,8 @@ export default function Navbar() {
                         <a href="#foreword" className="hover:text-gray-200 text-lg">
                             Foreword
                         </a>
-                        <a href="#events" className="hover:text-gray-200 text-lg">
-                            Events
+                        <a href="/gallerypage" className="hover:text-gray-200 text-lg">
+                            Gallery
                         </a>
                        <Link to="/contact" className="hover:text-gray-200 text-lg">Contact Us</Link>
                         
@@ -81,7 +81,7 @@ export default function Navbar() {
                             <a href="#membership" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Membership</a>
                             <a href="#directory" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Business Directory</a>
                             <a href="#foreword" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Foreword</a>
-                            <a href="#events" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Events</a>
+                            <a href="/gallerypage" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Gallery</a>
                             <a href="#contact" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Contact Us</a>
                             <div className="pt-4 pb-2">
                                 <a
