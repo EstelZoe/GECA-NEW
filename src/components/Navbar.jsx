@@ -82,7 +82,7 @@ export default function Navbar() {
                             <a href="#directory" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Business Directory</a>
                             <a href="#foreword" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Foreword</a>
                             <a href="/gallerypage" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Gallery</a>
-                            <a href="#contact" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Contact Us</a>
+                            <a href="/contact" onClick={handleLinkClick} className="block px-3 py-2 rounded-md text-base font-medium hover:bg-red-800">Contact Us</a>
                             <div className="pt-4 pb-2">
                                 <a
                                     href="#join"
