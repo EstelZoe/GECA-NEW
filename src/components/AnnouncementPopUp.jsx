@@ -62,7 +62,7 @@ export default function AnnouncementPopup() {
 
     {/* Countdown + Register */}
     <div className="p-4 text-center bg-black text-white">
-      <p className="text-lg font-semibold mb-2">Seminar starts in:</p>
+      <p className="text-lg font-semibold mb-2">Party starts in:</p>
       <div className="flex justify-center gap-2 sm:gap-4 text-xl font-bold mb-3 flex-wrap">
         <div>{timeLeft.days}d</div>
         <div>{timeLeft.hours}h</div>
