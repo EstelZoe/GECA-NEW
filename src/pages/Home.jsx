@@ -20,6 +20,7 @@ import eg from "../assets/images/MWECG.jpg";
 import VariouSwiper from "../components/VariouSwiper";
 import qr from "../assets/images/QR.PNG";
 import bg from "../assets/images/copy2.png";
+import powerrr from "../assets/images/powersafe3.jpeg";
 import AnnouncementPopup from "../components/AnnouncementPopUp";
 import FloatingWhatsApp from "../components/FloatingWhatsApp";
 
@@ -27,18 +28,21 @@ import FloatingWhatsApp from "../components/FloatingWhatsApp";
 const slides = [hero1, hero2, hero3];
 
 const eventSlides = [
+   
     {
+        img: powerrr,
+        title: " PowerSafe Ghana 2025",
+        desc: "PowerSafe Ghana 2025 has officially launched to drive safety, innovation, and collaboration in Ghana’s power sector, with its main event on September 23, 2025, bringing together industry experts to address challenges and showcase advanced technologies.",
+        link: "#",
+    },
+
+     {
         img: eg,
         title: "Meeting with ECG",
         desc: "The executives of the Ghana Electrical Contractors Association met with the Deputy MD of the ECG in charge of Engineering and Operations, Ing. Kojo Obeng and his team of engineers to discuss pertinentissues of mutual concerns. The parties reached consensus on key concerns and underscored the need to improve upon their relationship.",
         link: "#",
     },
-    {
-        img: solar,
-        title: " Training In Solar PV Installation And Maintenance",
-        desc: " Members of the Ghana Electrical Contractors Association undergoing practical training in Solar PV installation and maintenance. This program is funded by the Ghana Skills Development Fund under the     CTVET. At GECA, capacity building is our utmost priority.",
-        link: "#",
-    },
+    
     {
         img: conference,
         title: "Lighting and Smart Home Conference and Exhibition 2024",
