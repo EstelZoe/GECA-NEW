@@ -20,7 +20,7 @@ import eg from "../assets/images/MWECG.jpg";
 import VariouSwiper from "../components/VariouSwiper";
 import qr from "../assets/images/QR.PNG";
 import bg from "../assets/images/copy2.png";
-import powerrr from "../assets/images/powersafe3.jpeg";
+import evv from "../assets/images/gecatrainingev.jpeg";
 import AnnouncementPopup from "../components/AnnouncementPopUp";
 import FloatingWhatsApp from "../components/FloatingWhatsApp";
 
@@ -30,9 +30,9 @@ const slides = [hero1, hero2, hero3];
 const eventSlides = [
    
     {
-        img: powerrr,
-        title: " PowerSafe Ghana 2025",
-        desc: "PowerSafe Ghana 2025 has officially launched to drive safety, innovation, and collaboration in Ghana’s power sector, with its main event on September 23, 2025, bringing together industry experts to address challenges and showcase advanced technologies.",
+        img: evv,
+        title: "Technical Training On EV Charging Infrastructure Desiging and Ins",
+        desc: "A successful EV technical training completed! We appreciate all participants, facilitators, and partners who contributed to an engaging and impactful learning experience, advancing skills and shaping Ghana’s EV future.",
         link: "#",
     },
 

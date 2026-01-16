@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import party from "../assets/images/geca.jpeg";
+import training from "../assets/images/trainings26.jpeg";
 
 export default function AnnouncementPopup() {
   const [showPopup, setShowPopup] = useState(true);
@@ -53,7 +53,7 @@ export default function AnnouncementPopup() {
     {/* Image */}
     <div className="w-full max-h-[50vh] sm:max-h-[45vh] md:max-h-[55vh] flex justify-center">
       <img
-        src={party}
+        src={training}
         alt="annual party"
         className="w-[780px] h-auto object-contain"
         loading="lazy"
@@ -62,16 +62,16 @@ export default function AnnouncementPopup() {
 
     {/* Countdown + Register */}
     <div className="p-4 text-center bg-black text-white">
-      <p className="text-lg font-semibold mb-2">Party starts in:</p>
-      <div className="flex justify-center gap-2 sm:gap-4 text-xl font-bold mb-3 flex-wrap">
+      <p className="text-lg font-semibold mb-2">Training Programs:</p>
+      {/* <div className="flex justify-center gap-2 sm:gap-4 text-xl font-bold mb-3 flex-wrap">
         <div>{timeLeft.days}d</div>
         <div>{timeLeft.hours}h</div>
         <div>{timeLeft.minutes}m</div>
         <div>{timeLeft.seconds}s</div>
-      </div>
+      </div> */}
 
       <a
-        href="https://forms.gle/HhJ7wtu79X9tF8W86"
+        href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-block px-4 py-2 bg-red-600 hover:bg-red-700 rounded-full font-semibold transition-colors mt-2"

@@ -12,9 +12,9 @@ import p3 from "../assets/images/psl3.jpeg";
 import el1 from "../assets/images/ele1.jpeg";
 import el2 from "../assets/images/ele2.jpeg";
 import el3 from "../assets/images/ele3.jpeg";
-import nx1 from "../assets/images/nex1.jpeg";
-import nx2 from "../assets/images/nex2.jpeg";
-import nx3 from "../assets/images/nex3.jpeg";
+import nx1 from "../assets/images/FCM125.jpeg";
+import nx2 from "../assets/images/FCM225.jpeg";
+import nx3 from "../assets/images/FCM25.jpeg";
 import Navbar from "../components/Navbar";
 import TopNavbar from "../components/TopNavbar";
 import GallerySlides from "../components/GallerySlides";
@@ -45,8 +45,8 @@ const galleryData = [
   {
     id: 4,
     images: [nx1, nx2, nx3],
-     title: "Local Innovation & Global Standards",
-    description: "A GECA delegation, led by President Awal Sakib Mohammed, is attending the stakeholder conference on “Bridging Local Innovation and Global Standards” to advance Ghana’s electrotechnical excellence",
+     title: "Final Council Meeting 2025", 
+    description: "The GECA 2025 Final Council Meeting marked the culmination of a year of dedicated service, thoughtful decision-making, and significant milestones, celebrating growth, teamwork, and the lasting impact of our collective efforts.",
   },
   // {
   //   id: 5,
