@@ -5,6 +5,7 @@ import TopNavbar from "../components/TopNavbar";
 import Navbar from "../components/Navbar";
 import Testimonial from "../components/Testimonials";
 import Footer from "../components/Footer";
+import hero from "../assets/images/hero0.jpeg";
 import hero1 from "../assets/images/h1.jpg";
 import hero2 from "../assets/images/powersafe.jpg";
 import hero3 from "../assets/images/h3.jpg";
@@ -15,7 +16,7 @@ import svg4 from "../assets/graduate-cap-svgrepo-com.svg";
 import about2 from "../assets/images/about3.jpg";
 import presido from "../assets/images/pres.jpg";
 import solar from "../assets/images/Solar.jpg";
-import conference from "../assets/images/conference.jpg";
+import conference from "../assets/images/you.jpeg";
 import eg from "../assets/images/MWECG.jpg";
 import VariouSwiper from "../components/VariouSwiper";
 import qr from "../assets/images/QR.PNG";
@@ -25,7 +26,7 @@ import AnnouncementPopup from "../components/AnnouncementPopUp";
 import FloatingWhatsApp from "../components/FloatingWhatsApp";
 
 
-const slides = [hero1, hero2, hero3];
+const slides = [hero, hero1, hero3];
 
 const eventSlides = [
    
@@ -45,8 +46,8 @@ const eventSlides = [
     
     {
         img: conference,
-        title: "Lighting and Smart Home Conference and Exhibition 2024",
-        desc: " The Power Energy Ghana Expo 2024 and the Lighting & Smart Home  Conference were a great success, thanks to our stakeholders and exhibitors. Special thanks to Ms. Wilhelmina Asamoah, Ms. Harriet Thompson, Mr. Manish Gupta, and Ing. Anthony Bleboo for their  valued support.",
+        title: "World Youth Skills Day",
+        desc: "Youth are the future of our country. Equipping them with technical expertise and practical skills is essential to preparing the human capital required to drive national development. We call on policymakers to make youth development a top priority, ensuring consistent investment in education, training, and opportunities that empower the next generation.",
         link: "#",
     },
 ];

@@ -19,9 +19,10 @@ import Navbar from "../components/Navbar";
 import TopNavbar from "../components/TopNavbar";
 import GallerySlides from "../components/GallerySlides";
 import Footer from "../components/Footer";
+import geca1 from "../assets/images/geca1.jpeg";
+import geca2 from "../assets/images/geca2.jpeg";
 
-// Repeat imports for all 8 cards
-// For demo, I'm reusing the same images
+
 const galleryData = [
   {
     id: 1,
@@ -44,9 +45,9 @@ const galleryData = [
   },
   {
     id: 4,
-    images: [nx1, nx2, nx3],
-     title: "Final Council Meeting 2025", 
-    description: "The GECA 2025 Final Council Meeting marked the culmination of a year of dedicated service, thoughtful decision-making, and significant milestones, celebrating growth, teamwork, and the lasting impact of our collective efforts.",
+    images: [geca1, geca2, geca1],
+     title: "Inspection, Testing and Commissioning", 
+    description: "The Inspection, Testing & Commissioning of Electrical Installations training is currently underway at the CSIR-STEPRI Auditorium, Accra. A hands-on learning experience focused on promoting safe, reliable, and compliant electrical installations.",
   },
   // {
   //   id: 5,

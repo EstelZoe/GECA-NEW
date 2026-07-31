@@ -1,11 +1,13 @@
 import { useEffect, useState } from "react";
-import training from "../assets/images/trainings26.jpeg";
+// import training from "../assets/images/trainings26.jpeg";
+import pop from "../assets/images/popup.jpeg";
+
 
 export default function AnnouncementPopup() {
   const [showPopup, setShowPopup] = useState(true);
 
   // Correct event date: 09 dEC 2025, 1:10 PM
-   const eventDate = new Date("2025-12-09T11:00:00Z");
+  const eventDate = new Date("2025-12-09T11:00:00Z");
 
   const [timeLeft, setTimeLeft] = useState({
     days: 0,
@@ -39,48 +41,48 @@ export default function AnnouncementPopup() {
   if (!showPopup) return null;
 
   return (
-  <div className="fixed inset-0 bg-black/70 flex items-center pl-10 md:justify-center z-50 md:p-4">
-  <div className="bg-white rounded-2xl shadow-xl w-full max-w-[240px]  sm:max-w-md md:max-w-[270px] relative overflow-hidden">
+    <div className="fixed inset-0 bg-black/70 flex items-center pl-10 md:justify-center z-50 md:p-4">
+      <div className="bg-white rounded-2xl shadow-xl w-full max-w-[240px]  sm:max-w-md md:max-w-[270px] relative overflow-hidden">
 
-    {/* Close Button */}
-    <button
-      onClick={() => setShowPopup(false)}
-      className="absolute top-3 right-3 bg-black text-white rounded-full px-2 py-1 text-sm hover:bg-gray-800 z-10"
-    >
-      ✕
-    </button>
+        {/* Close Button */}
+        <button
+          onClick={() => setShowPopup(false)}
+          className="absolute top-3 right-3 bg-black text-white rounded-full px-2 py-1 text-sm hover:bg-gray-800 z-10"
+        >
+          ✕
+        </button>
 
-    {/* Image */}
-    <div className="w-full max-h-[50vh] sm:max-h-[45vh] md:max-h-[55vh] flex justify-center">
-      <img
-        src={training}
-        alt="annual party"
-        className="w-[780px] h-auto object-contain"
-        loading="lazy"
-      />
-    </div>
+        {/* Image */}
+        <div className="w-full max-h-[50vh] sm:max-h-[45vh] md:max-h-[55vh] flex justify-center">
+          <img
+            src={pop}
+            alt="annual party"
+            className="w-[780px] h-auto object-contain"
+            loading="lazy"
+          />
+        </div>
 
-    {/* Countdown + Register */}
-    <div className="p-4 text-center bg-black text-white">
-      <p className="text-lg font-semibold mb-2">Training Programs:</p>
-      {/* <div className="flex justify-center gap-2 sm:gap-4 text-xl font-bold mb-3 flex-wrap">
+        {/* Countdown + Register */}
+        {/* <div className="p-2 text-center bg-black text-white"> */}
+          {/* <p className="text-lg font-semibold mb-2">Training Programs:</p> */}
+          {/* <div className="flex justify-center gap-2 sm:gap-4 text-xl font-bold mb-3 flex-wrap">
         <div>{timeLeft.days}d</div>
         <div>{timeLeft.hours}h</div>
         <div>{timeLeft.minutes}m</div>
         <div>{timeLeft.seconds}s</div>
       </div> */}
 
-      <a
-        href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-block px-4 py-2 bg-red-600 hover:bg-red-700 rounded-full font-semibold transition-colors mt-2"
-      >
-        Register Now
-      </a>
+          {/* <a
+            href="https://docs.google.com/forms/d/e/1FAIpQLSfPsj0XLWj54JzoUOM1efHaXIjYEj1JzR5Tp2cqjT3YcLK1dQ/viewform?usp=sf_link"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-4 py-2 bg-red-600 hover:bg-red-700 rounded-full font-semibold transition-colors mt-2"
+          >
+            Register Now
+          </a> */}
+        {/* </div> */}
+      </div>
     </div>
-  </div>
-</div>
 
 
 
