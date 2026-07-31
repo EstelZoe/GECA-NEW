@@ -46,8 +46,8 @@ const galleryData = [
   {
     id: 4,
     images: [geca1, geca2, geca1],
-     title: "Inspection, Testing and Commissioning", 
-    description: "The Inspection, Testing & Commissioning of Electrical Installations training is currently underway at the CSIR-STEPRI Auditorium, Accra. A hands-on learning experience focused on promoting safe, reliable, and compliant electrical installations.",
+     title: "GECA Training 2026", 
+    description: "The Inspection, Testing & Commissioning of Electrical Installations training at the CSIR-STEPRI Auditorium, Accra. A hands-on learning experience focused on promoting safe, reliable, and compliant electrical installations.",
   },
   // {
   //   id: 5,
