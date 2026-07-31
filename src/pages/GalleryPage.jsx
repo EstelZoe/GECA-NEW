@@ -24,6 +24,13 @@ import geca2 from "../assets/images/geca2.jpeg";
 
 
 const galleryData = [
+
+  {
+    id: 4,
+    images: [geca1, geca2, geca1],
+     title: "GECA Training 2026", 
+    description: "The Inspection, Testing & Commissioning of Electrical Installations training at the CSIR-STEPRI Auditorium, Accra. A hands-on learning experience focused on promoting safe, reliable, and compliant electrical installations.",
+  },
   {
     id: 1,
     images: [power1, power2, power3],
@@ -43,12 +50,7 @@ const galleryData = [
    title: "GECA Elections 2025",
     description: "GECA 2025 National Delegates Conference & Elections are underway, uniting members nationwide to strengthen leadership, promote safety, and advance Ghana’s electrical contracting industry.",
   },
-  {
-    id: 4,
-    images: [geca1, geca2, geca1],
-     title: "GECA Training 2026", 
-    description: "The Inspection, Testing & Commissioning of Electrical Installations training at the CSIR-STEPRI Auditorium, Accra. A hands-on learning experience focused on promoting safe, reliable, and compliant electrical installations.",
-  },
+  
   // {
   //   id: 5,
   //   images: [power1, power2, power3],
