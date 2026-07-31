@@ -5,7 +5,7 @@ import TopNavbar from "../components/TopNavbar";
 import Navbar from "../components/Navbar";
 import Testimonial from "../components/Testimonials";
 import Footer from "../components/Footer";
-import hero from "../assets/images/hero0.jpeg";
+import hero from "../assets/images/image.png";
 import hero1 from "../assets/images/h1.jpg";
 import hero2 from "../assets/images/powersafe.jpg";
 import hero3 from "../assets/images/h3.jpg";
